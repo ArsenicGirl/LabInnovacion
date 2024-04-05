@@ -181,7 +181,7 @@
             </a>
 
 <!-- Logo de gmail con link-->
-            <a href="sarita.salazar.u@gmail.com">
+            <a href="e">
                 <i class="icon-mail">
                     <img src="./assets/iconfinder_gmail_google_mail_1220340.svg" alt="logo gmail" class="btn-mail">
                 </i>
@@ -197,28 +197,28 @@
                         <!-- Formulario de contacto-->
                 <div class="formulario">
 
-                     <!-- Conexión del formulario al correo correspondiente-->
-                         <form action="https://formsubmit.co/d65a91b1660e65a4b991cb67e4d52d90" method="POST">
+                    <!-- Conexión del formulario al correo correspondiente-->
+                        <form action="https://formsubmit.co/d65a91b1660e65a4b991cb67e4d52d90" method="post">
                         <div class="name" id="name">
-                            <input type="text" required>
+                            <input type="text" name="Nombre:">
                             <label>Nombre completo</label>
                         </div>
                         <div class="name" id="organization-name">
-                            <input type="text" required>
+                            <input type="text" name="Organización:" required>
                             <label>Nombre de la organización</label>
                         </div>
                         <div class="name" id="email">
-                            <input type="email" required>
+                            <input type="email" name="Email:" required>
                             <label>Correo</label>
                         </div>
                         <label id="lista-label">¿Está su organización vinculada al Banco de Alimentos de Bogotá?</label>
-                        <select for="vinculado" id="lista" required>
+                        <select name="Vinculación:" for="vinculado" id="lista" required>
                             <option value="nada" select="selected">-</option>
                             <option value="yes">Si, estoy vinculado al Banco de Alimentos</option>
                             <option value="No">No, no estoy vínculado al Banco de Alimentos</option>
                         </select>
                         <div class="name" id="question">
-                            <input type="text" required>
+                            <input type="text" name="Mensaje:" required>
                             <label>Mensaje</label>
                         </div>
                         <input type="submit" value="Enviar">
