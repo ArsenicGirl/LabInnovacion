@@ -88,3 +88,42 @@ a{
     border-radius: 50%;
     box-shadow: 0 4px 12px black;
 }
+@media (max-width: 768px) {
+    .principal-text-3{
+        padding: 0 2px;
+    }
+    .temas-3{
+        text-align: left;
+    }
+    .text-item-3{
+        width: 300px;
+        margin-bottom: 50px;
+        margin-left: 2%;
+    }
+    .info-item-3{
+        margin-left: 2%;
+    }
+    .principal-img-3{
+        margin-top: 6%;
+        width: 54%;
+        margin-bottom: -500px;
+        margin-left: -370px;
+    }
+    .second-info-3{
+        padding-bottom: 20px;
+    }
+    .list-container-3{
+        font-size: 15px;
+        margin-right: 10px;
+        padding: 2px 3px 200px 1px;
+    }
+    .btn-wst{
+        width: 20%;
+        margin-left: 2%;
+    }
+    .btn-mail{
+        width: 20%;
+        margin-left: 18%;
+    }
+    
+}
