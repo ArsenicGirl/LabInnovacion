@@ -630,5 +630,31 @@ medidas para tablet*/
     .link-banco {
         display: none; 
     }
+}
+    /* definir los estilos para tablets */
+@media only screen and (min-width: 610px) and (max-width: 1024px) {
+    .initial-text{
+        margin-top: 5%;
+    }
+    .principal-img{
+        width: 0%;
+        height: 0%;
+    }
+    .link-banco{
+        margin-left: 60%;
+        margin-bottom: 4.5%;
+    }
+    .contact-box-2{
+        margin: 0%;
+        margin-left: 15%;
+    }
+    .siguenos-text{
+        bottom: -70px;
+        left:-200px;
+    }
+}
+
+  /* Estilos para dispositivos de escritorio */
+@media only screen and (min-width: 1025px) {
 
 }
