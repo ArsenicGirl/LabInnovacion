@@ -297,6 +297,9 @@ li.footer-item.politic:hover{
     .nav-header{
         justify-content:left ;
     }
+    .header{
+        width: 80%;
+    }
 
     
 }
@@ -370,5 +373,4 @@ li{
         width: 20%;
         margin-left: 40%;
     }
-    
 }
